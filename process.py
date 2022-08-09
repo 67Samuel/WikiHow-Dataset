@@ -8,7 +8,7 @@ import os
 import re
 
 # read data from the csv file (from the location it is stored)
-Data = pd.read_csv(r'wikihowAll.csv')
+Data = pd.read_csv(r'../../../input/wikihow-summarization/wikihowAll.csv')
 Data = Data.astype(str)
 rows, columns = Data.shape
 
